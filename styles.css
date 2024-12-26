@@ -46,3 +46,32 @@ ul{
     font-weight: 400;
 }
 
+.top{
+    display: flex;
+    min-height: 200px;
+    justify-content: center;
+}
+
+.landscape{
+    height: auto;
+    width: 400px;
+}
+
+.left{
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.big-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
