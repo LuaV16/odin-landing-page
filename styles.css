@@ -176,6 +176,7 @@ ul{
 .sign-title{
     color: white;
     font-weight: 800;
+    margin-left: 30px;
 }
 
 .sign-subtext{
@@ -191,4 +192,5 @@ ul{
     width: 85px;
     height: 25px;
     margin-left: 100px;
+    margin-right: 30px;
 }
