@@ -50,28 +50,46 @@ ul{
     display: flex;
     min-height: 200px;
     justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .landscape{
     height: auto;
     width: 400px;
+    max-width: 640px;
+    max-height: 240px;
+    margin: 0px 50px;
 }
 
 .left{
     min-width: 200px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-
 }
 
 .big-text{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    flex-wrap: wrap;
+    max-width: 350px;
 }
 
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
+    max-width: 450px;
+    margin-bottom: 10px;
+}
+
+.first-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 90px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
 }
